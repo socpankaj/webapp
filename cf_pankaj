@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pankaj Suthar - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            margin-top: 0;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            margin-bottom: 30px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .education, .experience {
+            margin-bottom: 30px;
+        }
+        .education h3, .experience h3 {
+            margin-bottom: 10px;
+        }
+        .education p, .experience p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pankaj Suthar</h1>
+            <div class="contact-info">
+                <p>Email: pankaj@example.com</p>
+                <p>Phone: +1234567890</p>
+                <p>Location: City, Country</p>
+            </div>
+        </header>
+        
+        <section class="education">
+            <h2>Education</h2>
+            <div>
+                <h3>Degree Name</h3>
+                <p>University Name, Year</p>
+            </div>
+        </section>
+        
+        <section class="experience">
+            <h2>Experience</h2>
+            <div>
+                <h3>Job Title</h3>
+                <p>Company Name, Date Range</p>
+                <p>Description of responsibilities and achievements.</p>
+            </div>
+        </section>
+        
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Skill 1</li>
+                <li>Skill 2</li>
+                <li>Skill 3</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
